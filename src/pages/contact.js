@@ -1,11 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { Call } from "@mui/icons-material";
 
 import { setRender } from "../reduxToolkit/callSlice";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { Backdrop } from "@mui/material";
 function Contact() {
+  const [open, setOpen] = useState(false);
+  const history = useNavigate();
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(setRender(true));
@@ -13,7 +17,7 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setOpen(true);
     emailjs
       .sendForm(
         "contact_form",
@@ -25,8 +29,11 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          setOpen(false);
+          history("/");
         },
         (error) => {
+          setOpen(false);
           console.log(error.text);
         }
       );
@@ -34,6 +41,7 @@ function Contact() {
 
   return (
     <div className="">
+      <Backdrop open={open} />
       <div>
         <form
           ref={form}
