@@ -30,46 +30,44 @@ const Carousal = () => {
 
         <div class="carousel-inner relative w-full overflow-hidden">
           <div class="carousel-item active relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
-              class="block w-full"
-              alt="Motorbike Smoke"
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
+            <a href="/jewellery">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/swipe/1661877236352_wJA5fp01G_skxKRwX7rE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350969"
+                class="block w-full"
+                alt="Motorbike Smoke"
+              />
+            </a>
           </div>
-          {}
+          
           <div class="carousel-item relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
-              class="block w-full"
-              alt="Mountaintop"
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
+            <a href="/jewellery">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/swipe/1661877312052_GM43HLeV1_zjJs6l76i.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238351004"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
+          </div>
+          
+          <div class="carousel-item relative float-left w-full">
+            <a href="/prewed">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/swipe/pre_cople6__x3HAbxWq_YyWW_iCem.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350856"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
           </div>
 
           {/* <!-- Single item --> */}
           <div class="carousel-item relative float-left w-full">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
-              class="block w-full"
-              alt="Woman Reading a Book"
-            />
-            <div class="carousel-caption hidden md:block absolute text-center">
-              <h5 class="text-xl">Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
+            <a href="/baby">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/swipe/baby1_t7AhIuPFZ_0zOc2agkD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350853"
+                class="block w-full"
+                alt="Woman Reading a Book"
+              />
+            </a>
           </div>
         </div>
         {/* <!-- Inner --> */}

@@ -16,8 +16,13 @@ function FooterMain() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="animate-bounce p-[5px]">
-              <FacebookIcon sx={{ scale: "180%" }} />
+            <div className="animate-bounce p-[5px] w-[50px] h-[50px]">
+              {/* <FacebookIcon sx={{ scale: "180%" }} /> */}
+              <img
+                style={{ width: "100%", height: "100%" }}
+                src="https://ik.imagekit.io/ngamedata/memories/icons/facebook_2YI_BEgph.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665236912638"
+                alt="facebbokLink"
+              />
             </div>
           </a>
         </div>
@@ -27,8 +32,13 @@ function FooterMain() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="animate-bounce p-[5px]">
-              <InstagramIcon sx={{ scale: "180%" }} />
+            <div className="animate-bounce p-[5px] w-[50px] h-[50px]">
+              {/* <InstagramIcon sx={{ scale: "180%" }} /> */}
+              <img
+                style={{ width: "100%", height: "100%" }}
+                src="https://ik.imagekit.io/ngamedata/memories/icons/instagram__1__S9x9klTSQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665236912668"
+                alt="instagram"
+              />
             </div>
           </a>
         </div>
@@ -38,8 +48,13 @@ function FooterMain() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="animate-bounce p-[5px]">
-              <WhatsAppIcon sx={{ scale: "180%" }} />
+            <div className="animate-bounce p-[5px] w-[50px] h-[50px]">
+              {/* <WhatsAppIcon sx={{ scale: "180%" }} /> */}
+              <img
+                style={{ width: "100%", height: "100%" }}
+                src="https://ik.imagekit.io/ngamedata/memories/icons/whatsapp_EQi48mjB26.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665236912693"
+                alt="whatsapp"
+              />
             </div>
           </a>
         </div>
@@ -49,8 +64,12 @@ function FooterMain() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="animate-bounce p-[5px]">
-              <EmailIcon sx={{ scale: "180%" }} />
+            <div className="animate-bounce p-[5px] w-[50px] h-[50px]">
+              {/* <EmailIcon sx={{ scale: "180%" }} /> */}
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/icons/gmail_Aie-OUiFE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665236912690"
+                alt="email"
+              />
             </div>
           </a>
         </div>
