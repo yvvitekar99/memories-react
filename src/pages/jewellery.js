@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import Gallery from "../components/gallery";
+
+import { setRender } from "../reduxToolkit/callSlice";
 function Jewellery() {
+  const dispatch=useDispatch()
+  useEffect(()=>{
+    dispatch(setRender(false))
+  },[])
   const jewellery = [
     {
       id: 1,

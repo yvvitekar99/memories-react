@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { Call } from "@mui/icons-material";
+
+import { setRender } from "../reduxToolkit/callSlice";
+import { useDispatch } from "react-redux";
 function Contact() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(setRender(true));
+  }, []);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();

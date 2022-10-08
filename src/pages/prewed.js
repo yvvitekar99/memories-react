@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import Gallery from "../components/gallery";
 
+import { setRender } from "../reduxToolkit/callSlice";
 function PreWed() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(setRender(false));
+  }, []);
   const pre_couple = [
     {
       id: 1,
@@ -51,7 +57,6 @@ function PreWed() {
   ];
   return (
     <div>
-      
       <Gallery data={pre_couple} />
     </div>
   );
