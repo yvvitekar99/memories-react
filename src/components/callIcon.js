@@ -20,6 +20,7 @@ const Call = () => {
           <CallIcon
             sx={{
               color: "white",
+              zIndex: 8,
               backgroundColor: "green",
               bottom: "10%",
               right: "5%",
