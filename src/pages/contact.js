@@ -1,9 +1,7 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-import { useRouter } from "next/router";
 function Contact() {
-  const router = useRouter();
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,7 +17,6 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-          router.push("/");
         },
         (error) => {
           console.log(error.text);
