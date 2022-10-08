@@ -26,7 +26,7 @@ const Call = () => {
               right: "5%",
               position: "fixed",
               borderRadius: "50%",
-              scale: "200%",
+              scale: "250%",
               ":hover": { cursor: "pointer" },
             }}
           />
