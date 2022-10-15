@@ -2,7 +2,7 @@ import React from "react";
 
 const Carousal = () => {
   return (
-    <div>
+    <div className="w-[80%] h-[80%]">
       <div
         id="carouselDarkVariant"
         class="carousel slide carousel-fade carousel-dark relative"
