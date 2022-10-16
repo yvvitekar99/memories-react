@@ -15,6 +15,7 @@ import PreWed from "./pages/prewed";
 import Jewellery from "./pages/jewellery";
 import About from "./pages/about";
 import Maternity from "./pages/maternity";
+import Cont from "./components/Cont";
 
 const MainIndex = () => {
   return (
@@ -28,7 +29,7 @@ const MainIndex = () => {
           <Route path="/potraits" element={<Potraits />} />
           <Route path="/baby" element={<Baby />} />
           <Route path="/babyshower" element={<BabyShower />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Cont />} />
           <Route path="/food" element={<Food />} />
           <Route path="/prewed" element={<PreWed />} />
           <Route path="/jewellery" element={<Jewellery />} />

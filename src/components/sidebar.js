@@ -67,6 +67,7 @@ export default function PersistentDrawerLeft() {
             onClick={handleDrawerOpen}
             edge="start"
             sx={{
+              zIndex:8,
               mr: 4,
               ...(open && { display: "none" }),
               position: "fixed",
@@ -82,6 +83,7 @@ export default function PersistentDrawerLeft() {
 
         <Drawer
           sx={{
+            zIndex:8,
             width: drawerWidth,
             flexShrink: 0,
             "& .MuiDrawer-paper": {
