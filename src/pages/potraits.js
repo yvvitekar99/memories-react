@@ -114,6 +114,21 @@ function Potraits() {
       imgSrc:
         "https://ik.imagekit.io/ngamedata/memories/potraits/1661876970981_qQbMaehFm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661884387906",
     },
+    {
+      id: 22,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/potraits/IMG_5079_ygJIRlhlG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670698305296",
+    },
+    {
+      id: 23,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/potraits/IMG_5065_xRMWBHz-8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670698305271",
+    },
+    {
+      id: 24,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/potraits/IMG_5083_h8SUA0Uq1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670698305230",
+    },
   ];
   return (
     <div>
