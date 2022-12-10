@@ -16,6 +16,7 @@ import Jewellery from "./pages/jewellery";
 import About from "./pages/about";
 import Maternity from "./pages/maternity";
 import Cont from "./components/Cont";
+import Products from "./pages/products";
 
 const MainIndex = () => {
   return (
@@ -31,6 +32,7 @@ const MainIndex = () => {
           <Route path="/babyshower" element={<BabyShower />} />
           <Route path="/contact" element={<Cont />} />
           <Route path="/food" element={<Food />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/prewed" element={<PreWed />} />
           <Route path="/jewellery" element={<Jewellery />} />
           <Route path="/about" element={<About />} />

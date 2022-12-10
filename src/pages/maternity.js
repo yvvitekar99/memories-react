@@ -34,6 +34,16 @@ function Maternity() {
       imgSrc:
         "https://ik.imagekit.io/ngamedata/memories/maternity/mat5_D4B-LkPBc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661880761804",
     },
+    {
+      id: 6,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/maternity/IMG_9531_pkqqbAHGA.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670698406152",
+    },
+    {
+      id: 7,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/maternity/IMG_9677_y8rvZ-D08.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670698405715",
+    },
   ];
   return (
     <div>

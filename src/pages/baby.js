@@ -3,10 +3,10 @@ import { useDispatch } from "react-redux";
 import Gallery from "../components/gallery";
 import { setRender } from "../reduxToolkit/callSlice";
 function Baby() {
-  const dispatch=useDispatch()
-  useEffect(()=>{
-    dispatch(setRender(false))
-  },[])
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(setRender(false));
+  }, []);
   const baby = [
     {
       id: 2,
@@ -38,10 +38,24 @@ function Baby() {
       imgSrc:
         "https://ik.imagekit.io/ngamedata/memories/baby/baby2_f0Bwrvmdj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661881257706",
     },
+    {
+      id: 8,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/baby/IMG_4502_kK47V99EP.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670697651444",
+    },
+    {
+      id: 9,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/baby/IMG_5314_PRn0ylFF2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670697651389",
+    },
+    {
+      id: 10,
+      imgSrc:
+        "https://ik.imagekit.io/ngamedata/memories/baby/IMG_5304_8fP5gT6Dp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670697651333",
+    },
   ];
   return (
     <div>
-     
       <Gallery data={baby} />
     </div>
   );
