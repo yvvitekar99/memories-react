@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App flex flex-col justify-center items-center">
       <Carousal />
-      <div className="flex flex-row justify-between">
+      {/* <div className="flex flex-row justify-between">
        <Test/>
-      </div>
+      </div> */}
     </div>
   );
 }
