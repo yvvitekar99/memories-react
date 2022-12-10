@@ -23,7 +23,7 @@ const Call = () => {
               zIndex: 8,
               backgroundColor: "green",
               bottom: "15%",
-              right: "5%",
+              right: "10%",
               position: "fixed",
               borderRadius: "50%",
               scale: "250%",
