@@ -163,7 +163,7 @@ export default function PersistentDrawerLeft() {
                   </List>
                   <List component="div" disablePadding>
                     <ListItemButton href="products" sx={{ pl: 4 }}>
-                      <ListItemText primary="Products" />
+                      <ListItemText primary="Product" />
                     </ListItemButton>
                   </List>
                 </Collapse>

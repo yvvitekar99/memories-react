@@ -9,11 +9,7 @@ function Maternity() {
     dispatch(setRender(false))
   },[])
   const maternity = [
-    {
-      id: 1,
-      imgSrc:
-        "https://ik.imagekit.io/ngamedata/memories/maternity/mat4_oEak0voaS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661880780702",
-    },
+   
     {
       id: 2,
       imgSrc:
@@ -29,11 +25,7 @@ function Maternity() {
       imgSrc:
         "https://ik.imagekit.io/ngamedata/memories/maternity/mat2_yySx6MD_R7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661880769365",
     },
-    {
-      id: 5,
-      imgSrc:
-        "https://ik.imagekit.io/ngamedata/memories/maternity/mat5_D4B-LkPBc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661880761804",
-    },
+    
     {
       id: 6,
       imgSrc:

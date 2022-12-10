@@ -32,23 +32,50 @@ const Carousal = () => {
           <div class="carousel-item active relative float-left w-full">
             <a href="/jewellery">
               <img
-                src="https://ik.imagekit.io/ngamedata/memories/swipe/1661877236352_wJA5fp01G_skxKRwX7rE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350969"
+                src="https://ik.imagekit.io/ngamedata/memories/jewellary/1661877236352_wJA5fp01G.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661884107642"
                 class="block w-full"
                 alt="Motorbike Smoke"
               />
             </a>
           </div>
-          
+
           <div class="carousel-item relative float-left w-full">
-            <a href="/jewellery">
+            <a href="/prewed">
               <img
-                src="https://ik.imagekit.io/ngamedata/memories/swipe/1661877312052_GM43HLeV1_zjJs6l76i.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238351004"
+                src="https://ik.imagekit.io/ngamedata/memories/pre_couple/pre_cople8_L1I9_RuFC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661881079573"
                 class="block w-full"
                 alt="Mountaintop"
               />
             </a>
           </div>
-          
+
+          <div class="carousel-item relative float-left w-full">
+            <a href="/prewed">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/pre_couple/0F1A8973__WgQi4HYV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670699151839"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <a href="/baby">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/baby/IMG_5314_PRn0ylFF2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670697651389"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <a href="/prewed">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/Baby_shower/mat9_IyL0XcowE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661881373447"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
+          </div>
           <div class="carousel-item relative float-left w-full">
             <a href="/prewed">
               <img
@@ -58,12 +85,21 @@ const Carousal = () => {
               />
             </a>
           </div>
-
-          {/* <!-- Single item --> */}
           <div class="carousel-item relative float-left w-full">
             <a href="/baby">
               <img
-                src="https://ik.imagekit.io/ngamedata/memories/swipe/baby1_t7AhIuPFZ_0zOc2agkD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350853"
+                src="https://ik.imagekit.io/ngamedata/memories/baby/1661878709298_mjyBhjjS1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661884293826"
+                class="block w-full"
+                alt="Mountaintop"
+              />
+            </a>
+          </div>
+
+          {/* <!-- Single item --> */}
+          <div class="carousel-item relative float-left w-full">
+            <a href="/prewed">
+              <img
+                src="https://ik.imagekit.io/ngamedata/memories/pre_couple/0F1A8616_AcMErrCV7W.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670699136685"
                 class="block w-full"
                 alt="Woman Reading a Book"
               />
