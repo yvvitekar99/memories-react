@@ -149,7 +149,7 @@ const Cont = () => {
                         Phone Number
                       </h4>
                       <p class="text-base text-body-color">
-                        (+62)81 414 257 9980
+                        (+91) 91 56 985 861
                       </p>
                     </div>
                   </div>:null}
