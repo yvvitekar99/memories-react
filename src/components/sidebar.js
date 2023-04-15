@@ -95,7 +95,7 @@ export default function PersistentDrawerLeft() {
             },
           }}
           variant="persistent"
-          anchor="left"
+          anchor="right"
           open={open}
           onClose={(_, reason) => {
             if (reason === "backdropClick") {

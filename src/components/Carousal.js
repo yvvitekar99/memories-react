@@ -29,7 +29,7 @@ const Carousal = () => {
         </div>
 
         <div class="carousel-inner relative w-full overflow-hidden">
-          <div class="carousel-item active relative float-left w-full">
+          <div class="carousel-item active relative float-left w-full m-[0.5rem]">
             <a href="/jewellery">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/jewellary/1661877236352_wJA5fp01G.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661884107642"
@@ -39,7 +39,7 @@ const Carousal = () => {
             </a>
           </div>
 
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/prewed">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/pre_couple/pre_cople8_L1I9_RuFC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661881079573"
@@ -49,7 +49,7 @@ const Carousal = () => {
             </a>
           </div>
 
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/prewed">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/pre_couple/0F1A8973__WgQi4HYV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670699151839"
@@ -58,7 +58,7 @@ const Carousal = () => {
               />
             </a>
           </div>
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/baby">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/baby/IMG_5314_PRn0ylFF2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670697651389"
@@ -67,7 +67,7 @@ const Carousal = () => {
               />
             </a>
           </div>
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/prewed">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/Baby_shower/mat9_IyL0XcowE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661881373447"
@@ -76,7 +76,7 @@ const Carousal = () => {
               />
             </a>
           </div>
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/prewed">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/swipe/pre_cople6__x3HAbxWq_YyWW_iCem.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665238350856"
@@ -85,7 +85,7 @@ const Carousal = () => {
               />
             </a>
           </div>
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/baby">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/baby/1661878709298_mjyBhjjS1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661884293826"
@@ -96,7 +96,7 @@ const Carousal = () => {
           </div>
 
           {/* <!-- Single item --> */}
-          <div class="carousel-item relative float-left w-full">
+          <div class="carousel-item relative float-left w-full m-[0.5rem]">
             <a href="/prewed">
               <img
                 src="https://ik.imagekit.io/ngamedata/memories/pre_couple/0F1A8616_AcMErrCV7W.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670699136685"
@@ -109,7 +109,7 @@ const Carousal = () => {
         {/* <!-- Inner --> */}
 
         {/* <!-- Controls --> */}
-        <button
+        {/* <button
           class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
           type="button"
           data-bs-target="#carouselDarkVariant"
@@ -132,7 +132,7 @@ const Carousal = () => {
             aria-hidden="true"
           ></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );
