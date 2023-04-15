@@ -74,6 +74,9 @@ function FooterMain() {
           </a>
         </div>
       </div>
+      <div className="font-black text-xs pt-0 pb-6">
+        © 2022 Memories By Sanket
+      </div>
     </div>
   );
 }
