@@ -185,7 +185,7 @@ const Cont = () => {
                         Email Address
                       </h4>
                       <p class="text-base text-body-color">
-                        patwe.sanket.photography@gmail.com
+                        memoriesbysanket@gmail.com
                       </p>
                     </div>
                   </div>
