@@ -9,7 +9,7 @@ function HeadMain() {
           <img
             className="image"
             src="
-        https://ik.imagekit.io/ngamedata/final_ec3IUyjhZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661680928438"
+        https://ik.imagekit.io/ngamedata/MBS%20Black_zUU4yUq_7.png?updatedAt=1754099353776"
           />
         </Link>
 
@@ -24,3 +24,4 @@ function HeadMain() {
 }
 
 export default HeadMain;
+
